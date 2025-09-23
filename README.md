@@ -1,2 +1,2 @@
 # EzInstall
-Install linux apps in seconds
+Install apps in linux within seconds
