@@ -53,7 +53,7 @@ body {
     
     .support{
       padding: 5px 15px;
-      margin: 10px;
+      margin: 20px;
       width: 200px;
       border: 2px solid #00ff00;
       background-color: #000;
@@ -68,3 +68,11 @@ body {
     .support h3{
       text-align: center;
     }
+    
+    .support img{
+      display: flex;
+      justify-self: center;
+      height: auto;
+      width: 150px;
+    }
+
