@@ -3,4 +3,9 @@ A tool to easily install apps in linux within seconds for most of the linux dist
 
 ## Supported Distros
 - Ubuntu
-- Debeain
+- Debian
+- Arch Linux
+- Manjaro
+- Fedora
+- Linux Mint
+- Kali Linux
