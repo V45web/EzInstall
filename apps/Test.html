@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Copy Code Example</title>
+</head>
+<body>
+
+  <pre id="code">
+    This is some sample code that will be copied to the clipboard.
+  </pre>
+
+  <button onclick="copycode()">Copy Code</button>
+
+  <script>
+    const code = document.getElementById("code").innerText;
+
+    function copycode(){
+      navigator.clipboard.writeText(code);
+      alert("Code is copy!");
+    }
+  </script>
+
+</body>
+</html>
