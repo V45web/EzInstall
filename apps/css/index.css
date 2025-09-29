@@ -1,0 +1,40 @@
+body {
+      background-color: #1e1e1e; /* Linux terminal dark */
+      color: #00ff00; /* Green text like terminal */
+      font-family: monospace;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: flex-start;
+      min-height: 100vh;
+      padding-top: 50px;
+    }
+    
+    p{
+      text-align: center;
+    }
+
+    h1 {
+      font-size: 2em;
+      margin-bottom: 20px;
+    }
+
+    .box{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      gap: 10px;
+      text-align: center;
+    }
+    
+    .box div{
+      background: red;
+      border-radius: 5px;
+      padding: 20px;
+      width: 200px;
+    }
+    
+    button{
+      padding: 10px;
+      
+    }

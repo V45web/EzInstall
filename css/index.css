@@ -53,6 +53,9 @@ body {
     
     .support{
       padding: 5px 15px;
+      display: flex;
+     align-items: center;
+     flex-direction: column;
       margin: 20px;
       width: 200px;
       border: 2px solid #00ff00;
