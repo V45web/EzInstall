@@ -17,7 +17,7 @@
   { name: "Obsidian", link: "" },
   { name: "Thunderbird", link: "" },
   { name: "Evolution", link: "" },
-  { name: "Firefox", link: "" },
+  { name: "Firefox", link: "apps/firefox.html?json=firefox.json" },
   { name: "Brave", link: "" },
   { name: "Chromium", link: "" },
   { name: "Google Chrome", link: "" },
