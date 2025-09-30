@@ -33,3 +33,20 @@ function gen(name,code,link){
   container.appendChild(box);
 
 }
+
+const url = URLSearchParams(window.location)
+
+fetch(url.get("json"))
+  .then(response => {
+    if (!response.ok) throw new Error("Failed to load JSON");
+    return response.json();
+  })
+  .then(data => {
+    Object.keys(data).forEach(key => {
+      const item = data[key];
+      gen(item.name, item.code, item.link);
+    });
+  })
+  .catch(error => {
+    console.error("Error:", error);
+  });

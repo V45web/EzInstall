@@ -1,0 +1,7 @@
+{
+    "ubuntu":{
+        "name":"Firefox",
+        "code":"sudo apt install firefox",
+        "link":"#"
+    }
+}
