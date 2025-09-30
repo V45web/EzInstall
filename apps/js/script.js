@@ -42,6 +42,8 @@ fetch(url.get("json"))
     return response.json();
   })
   .then(data => {
+		document.getElementById("").innerText = url.get("json");
+    
     Object.keys(data).forEach(key => {
       const item = data[key];
       gen(item.name, item.code, item.link);
