@@ -20,13 +20,13 @@ body {
     }
 
     input {
-      width: 300px;
-      padding: 10px;
+      width: 350px;
+      padding: 20px;
       border: 2px solid #00ff00;
       background-color: #000;
       color: #00ff00;
       font-family: monospace;
-      font-size: 1em;
+      font-size: 1.5em;
       outline: none;
       border-radius: 5px;
     }
@@ -39,7 +39,7 @@ body {
     }
 
     .item {
-      padding: 8px;
+      padding: 15px;
       border: 1px solid #00ff00;
       margin-bottom: 7px;
       border-radius: 5px;
