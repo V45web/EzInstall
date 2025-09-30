@@ -176,7 +176,7 @@ const handleSearch = () => {
     div.textContent = item.name;
     if (item.link) {
       div.style.cursor = "pointer";
-      div.onclick = () => window.open("apps/installer.html?json="item.link, "_blank");
+      div.onclick = () => window.open("apps/installer.html?json=" + item.link, "_blank");
     }
     resultsDiv.appendChild(div);
   });
