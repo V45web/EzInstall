@@ -34,9 +34,9 @@ function gen(name,code,link){
 
 }
 
-const url = new URLSearchParams(window.location.href)
+const url = new URLSearchParams(window.location.search)
 
-fetch("firefox.json")
+fetch(url.get("json"))
   .then(response => {
     if (!response.ok) throw new Error("Failed to load JSON");
     return response.json();
