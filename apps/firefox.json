@@ -3,13 +3,13 @@
         "name": "Ubuntu",
         "code": "sudo apt install firefox",
         "link": "#",
-        "logo": "images/ubuntu"
+        "logo": "images/ubuntu.svg"
     },
     "debian": {
         "name": "Debian",
         "code": "sudo apt install firefox-esr",
         "link": "#",
-        "logo": "images/debian"
+        "logo": "images/debian.svg"
     },
     "arch": {
         "name": "Arch Linux",
