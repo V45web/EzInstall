@@ -17,7 +17,7 @@
   { name: "Obsidian", link: "" },
   { name: "Thunderbird", link: "" },
   { name: "Evolution", link: "" },
-  { name: "Firefox", link: "apps/firefox.html?json=firefox.json" },
+  { name: "Firefox", link: "firefox.json" },
   { name: "Brave", link: "" },
   { name: "Chromium", link: "" },
   { name: "Google Chrome", link: "" },
@@ -176,7 +176,7 @@ const handleSearch = () => {
     div.textContent = item.name;
     if (item.link) {
       div.style.cursor = "pointer";
-      div.onclick = () => window.open(item.link, "_blank");
+      div.onclick = () => window.open("apps/installer.html?json="item.link, "_blank");
     }
     resultsDiv.appendChild(div);
   });
