@@ -42,7 +42,7 @@ fetch(url.get("json"))
     return response.json();
   })
   .then(data => {
-		document.getElementById("").innerText = url.get("json");
+		document.getElementById("title").innerText = url.get("json");
     
     Object.keys(data).forEach(key => {
       const item = data[key];
