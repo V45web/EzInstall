@@ -52,7 +52,7 @@ button:hover {
   background-color: #00a700;
 }
 
-.code-block {
+.codeblock {
   background-color: #2d2d2d;       /* Light gray background */
   font-family: 'Courier New', monospace;  /* Monospaced font */
   font-size: 14px;
