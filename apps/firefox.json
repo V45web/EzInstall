@@ -1,7 +1,37 @@
 {
-    "ubuntu":{
-        "name":"Firefox",
-        "code":"sudo apt install firefox",
-        "link":"#"
+    "ubuntu": {
+        "name": "Firefox",
+        "code": "sudo apt install firefox",
+        "link": "#"
+    },
+    "debian": {
+        "name": "Firefox",
+        "code": "sudo apt install firefox-esr",
+        "link": "#"
+    },
+    "arch": {
+        "name": "Firefox",
+        "code": "sudo pacman -S firefox",
+        "link": "#"
+    },
+    "manjaro": {
+        "name": "Firefox",
+        "code": "sudo pacman -S firefox",
+        "link": "#"
+    },
+    "fedora": {
+        "name": "Firefox",
+        "code": "sudo dnf install firefox",
+        "link": "#"
+    },
+    "linuxmint": {
+        "name": "Firefox",
+        "code": "sudo apt install firefox",
+        "link": "#"
+    },
+    "kali": {
+        "name": "Firefox",
+        "code": "sudo apt install firefox-esr",
+        "link": "#"
     }
 }
