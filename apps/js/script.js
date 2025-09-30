@@ -29,8 +29,8 @@ function gen(name,code,link,logo){
   };
 
   // Append elements to the container
-  box.appendChild(heading);
   box.appendChild(icon)
+  box.appendChild(heading);
   box.appendChild(codeBlock);
   box.appendChild(button);
 
