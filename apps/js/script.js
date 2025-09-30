@@ -4,3 +4,31 @@ function copyToClipboard(id) {
     .then(() => alert('Copied to clipboard!'))
     .catch(err => alert('Failed to copy: ' + err));
 }
+
+function gen(name,code,link){const container = document.getElementById('container');
+
+  const box = document.createElement('div');
+  box.className = 'distro';
+
+  const heading = document.createElement('h2');
+  heading.textContent = name;
+
+  const codeBlock = document.createElement('p');
+  codeBlock.className = 'codeblock';
+  codeBlock.id = name;
+  codeBlock.textContent = code;
+
+  const button = document.createElement('button');
+  button.textContent = 'Copy to clipboard';
+  button.onclick = function () {
+    copyToClipboard(name);
+  };
+
+  // Append elements to the container
+  box.appendChild(heading);
+  box.appendChild(codeBlock);
+  box.appendChild(button);
+
+  container.appendChild(box);
+
+}
