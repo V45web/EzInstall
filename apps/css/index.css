@@ -63,3 +63,8 @@ button:hover {
   white-space: pre;                /* Preserve formatting */
   margin: 1em 0;
 }
+
+img{
+  height: 40px;
+  width: 40px;
+}

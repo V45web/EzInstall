@@ -5,8 +5,11 @@ function copyToClipboard(id) {
     .catch(err => alert('Failed to copy: ' + err));
 }
 
-function gen(name,code,link){
+function gen(name,code,link,logo){
   const container = document.getElementById('box');
+
+  const icon = document.createElement('img');
+  icon.src = logo;
 
   const box = document.createElement('div');
   box.className = 'distro';
@@ -27,6 +30,7 @@ function gen(name,code,link){
 
   // Append elements to the container
   box.appendChild(heading);
+  box.appendChild(icon)
   box.appendChild(codeBlock);
   box.appendChild(button);
 
@@ -46,7 +50,7 @@ fetch(url.get("json"))
     
     Object.keys(data).forEach(key => {
       const item = data[key];
-      gen(item.name, item.code, item.link);
+      gen(item.name, item.code, item.link, item.logo);
     });
   })
   .catch(error => {
