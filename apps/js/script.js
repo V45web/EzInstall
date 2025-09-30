@@ -34,7 +34,7 @@ function gen(name,code,link){
 
 }
 
-const url = URLSearchParams(window.location)
+const url = new URLSearchParams(window.location)
 
 fetch(url.get("json"))
   .then(response => {
