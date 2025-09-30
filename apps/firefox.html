@@ -10,63 +10,50 @@
   
   <h1>Install Firefox</h1>
   
-  <div class="box">
-    <div>
-      <h2>Ubuntu</h2>
-      <p id="ubuntu">
-        
-      </p>
-      <button onclick="copyubuntu()">Copy to clipboard</button>
-    </div>
-    
-    <div>
-      <h2>Debian</h2>
-      <p id="debian">
-      
-      </p>
-      <button onclick="copyubuntu()">Copy to clipboard</button>
-    </div>
-    
-    <div>
-      <h2>Arch</h2>
-      <p id="arch">
-      
-      </p>
-      <button onclick="copyubuntu()">Copy to clipboard</button>
-    </div>
-    
-    <div>
-      <h2>Manjaro</h2>
-      <p id="manjaro">
-      
-      </p>
-      <button onclick="copyubuntu()">Copy to clipboard</button>
-    </div>
-    
-    <div>
-      <h2>Fedora</h2>
-      <p id="fedora">
-      
-      </p>
-      <button onclick="copyubuntu()">Copy to clipboard</button>
-    </div>
-    
-    <div>
-      <h2>Linux Mint</h2>
-      <p id="mint">
-      
-      </p>
-      <button onclick="copyubuntu()">Copy to clipboard</button>
-    </div>
-    
-    <div>
-      <h2>Kali Linux</h2>
-      <p id="kali">
-      
-      </p>
-      <button onclick="copyubuntu()">Copy to clipboard</button>
-    </div>
+<div class="box">
+  <div class="distro">
+    <h2>Ubuntu</h2>
+    <p id="ubuntu">sudo apt install firefox</p>
+    <button onclick="copyToClipboard('ubuntu')">Copy to clipboard</button>
   </div>
+
+  <div class="distro">
+    <h2>Debian</h2>
+    <p id="debian">sudo apt-get install firefox-esr</p>
+    <button onclick="copyToClipboard('debian')">Copy to clipboard</button>
+  </div>
+
+  <div class="distro">
+    <h2>Arch</h2>
+    <p id="arch">sudo pacman -S firefox</p>
+    <button onclick="copyToClipboard('arch')">Copy to clipboard</button>
+  </div>
+
+  <div class="distro">
+    <h2>Manjaro</h2>
+    <p id="manjaro">sudo pacman -S firefox</p>
+    <button onclick="copyToClipboard('manjaro')">Copy to clipboard</button>
+  </div>
+
+  <div class="distro">
+    <h2>Fedora</h2>
+    <p id="fedora">sudo dnf install firefox</p>
+    <button onclick="copyToClipboard('fedora')">Copy to clipboard</button>
+  </div>
+
+  <div class="distro">
+    <h2>Linux Mint</h2>
+    <p id="mint">sudo apt install firefox</p>
+    <button onclick="copyToClipboard('mint')">Copy to clipboard</button>
+  </div>
+
+  <div class="distro">
+    <h2>Kali Linux</h2>
+    <p id="kali">sudo apt install firefox-esr</p>
+    <button onclick="copyToClipboard('kali')">Copy to clipboard</button>
+  </div>
+</div>
+
   
   <script src="js/script.js"></script>
 </body>
