@@ -14,7 +14,8 @@
     "arch": {
         "name": "Arch Linux",
         "code": "sudo pacman -S firefox",
-        "link": "#"
+        "link": "#",
+        "logo": "images/arch.svg"
     },
     "manjaro": {
         "name": "Manjaro",
