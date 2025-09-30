@@ -5,7 +5,8 @@ function copyToClipboard(id) {
     .catch(err => alert('Failed to copy: ' + err));
 }
 
-function gen(name,code,link){const container = document.getElementById('container');
+function gen(name,code,link){
+  const container = document.getElementById('box');
 
   const box = document.createElement('div');
   box.className = 'distro';
